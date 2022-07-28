@@ -18,7 +18,6 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
-	_ "github.com/diegoalves0688/gomodel/cmd/gosample/docs"
 )
 
 func newEcho(lc fx.Lifecycle, logger *zap.Logger) *echo.Echo {
