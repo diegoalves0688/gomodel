@@ -1,6 +1,6 @@
 # digital-go-sample
 
-This is a sample project to create Go based products on Digital.
+This is a sample project to create Go based products.
 
 ## Main dependencies
 
