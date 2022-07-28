@@ -1,4 +1,4 @@
-# digital-go-sample
+# gomodel
 
 This is a sample project to create Go based products.
 
