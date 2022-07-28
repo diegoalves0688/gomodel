@@ -1,0 +1,6 @@
+- model: Message
+  rows:
+    - _id: bf40e5e7-e3a0-4a11-b1e6-3b2b0455a9ae
+      receiver: Paulo
+      sender: Maria
+      content: 'sample'

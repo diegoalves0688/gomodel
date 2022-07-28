@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: go-sample-db
+    image: postgres:14.2-alpine
+    environment:
+      - POSTGRES_DB=go-sample
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 256M
+        reservations:
+          cpus: '0.25'
+          memory: 25M
+
+volumes:
+  db_data:
+    name: go-sample-db-data
+    driver: local

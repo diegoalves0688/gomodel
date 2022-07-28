@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  run:
+    cmds:
+      - docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.44.2 golangci-lint run -v

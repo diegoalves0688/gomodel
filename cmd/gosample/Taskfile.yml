@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  gen-api-doc:
+    cmds:
+      - swag init -d cmd/gosample,internal/api -o cmd/gosample/docs
+  fmt-api-comment:
+    cmds:
+      - swag fmt -d cmd/gosample,internal/api
+  run:
+    cmds:
+      - go run ./cmd/gosample/main.go

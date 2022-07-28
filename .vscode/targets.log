@@ -1,0 +1,480 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jul 28 11:09:17 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/diego/go/src/gomodel
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:95606
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = diego
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /snap/code/102/usr/share/code/code
+# environment
+LC_CTYPE = pt_BR.UTF-8
+# environment
+MANAGERPID = 930
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = pt_BR.UTF-8
+# environment
+VSCODE_CWD = /home/diego
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/diego-Inspiron-3583:@/tmp/.ICE-unix/10560,unix/diego-Inspiron-3583:/tmp/.ICE-unix/10560
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/diego/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/102
+# environment
+GOPATH = /home/diego/go
+# environment
+SNAP_VERSION = 3b889b09
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 1360de8697f94587bd7d6af6086bb22b
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 11806
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/diego/go/src/gomodel
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1187
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+GOMODCACHE = /home/diego/go/pkg/mod
+# environment
+HOME = /home/diego
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/diego/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = diego
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = 7r5MIEXH-ekOMierTv7mIiI1J6TO5EzuDQDTGDobaqx0wGxksGS6
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/diego/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = pt_BR.UTF-8
+# environment
+SNAP_REAL_HOME = /home/diego
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/diego/snap/code/102
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = diego
+# environment
+SNAP_REVISION = 102
+# environment
+LC_MONETARY = pt_BR.UTF-8
+# makefile
+.DEFAULT_GOAL := help
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = pt_BR.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-37082df1-1.69.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = pt_BR.UTF-8
+# environment
+LC_IDENTIFICATION = pt_BR.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = 7r5MIEXH-ekOMierTv7mIiI1J6TO5EzuDQDTGDobaqx0wGxksGS6
+# environment
+LC_NUMERIC = pt_BR.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = pt_BR.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# environment
+LC_ADDRESS = pt_BR.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 11854
+# variable set hash-table stats:
+# Load=129/1024=13%, Rehash=0, Collisions=25/154=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 11540730): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+mock-generate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+	go mod vendor
+	docker run --rm -v "$(PWD):/app" -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-accounts/api/infra/grpc/v1 --case underscore --name AccountServiceClient --output ./mocks/client
+	docker run --rm -v "$(PWD):/app" -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-company-api/api/v1/genpb --case underscore --name CompanyServiceClient --output ./mocks/client
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+migrate-create:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	migrate create -ext sql -dir migrations -tz America/Sao_Paulo $(file_name)
+	
+
+format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	docker run --rm -ti \
+		--platform linux/amd64 \
+		--name=pix-infraction-fmt-format \
+		-v `pwd`:/code \
+		-w /code \
+		golang:1.17-buster gofmt -d -w .
+	docker run --rm -ti \
+		--platform linux/amd64 \
+		--name=pix-infraction-goimports-format \
+		-v `pwd`:/code \
+		-w /code \
+		-e GO111MODULE=off \
+		golang:1.17-buster \
+		sh -c "go get -u golang.org/x/tools/cmd/goimports; go run golang.org/x/tools/cmd/goimports -v -w -d -l ."
+	docker run --rm -ti \
+		--platform linux/amd64 \
+		--name=pix-infraction-golines-format \
+		-v `pwd`:/code \
+		-w /code \
+		-e GO111MODULE=off \
+		golang:1.17-buster \
+		sh -c "go get -u github.com/segmentio/golines; golines . -m 120 -w --ignore-generated --no-reformat-tags --debug"
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 11:08:46.771996241
+#  File has been updated.
+#  Successfully updated.
+
+start:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+	docker-compose up -d --build # Run docker-compose
+
+proto-generate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	docker run --rm \
+		--name pix-infraction-proto \
+		-u $(id -u):$(id -u) \
+		-v `pwd`:/code \
+		rvolosatovs/protoc:3.2 \
+			--proto_path=/code/api/v1 \
+			--go_out=plugins=grpc,paths=source_relative:/code/api/v1/genpb /code/api/v1/*.proto
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	touch count.out
+	go test -covermode=count -coverprofile=count.out -v ./...
+	$(MAKE) coverage
+
+proto-generate-mac-m1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	docker run --rm \
+		--platform linux/arm64/v8 \
+		--name pix-infraction-proto \
+		-u $(id -u):$(id -u) \
+		-v `pwd`:/code \
+		twelvee/test-grpc:1.1 \
+			--proto_path=/code/api/v1 \
+			--go_out=plugins=grpc,paths=source_relative:/code/api/v1/genpb /code/api/v1/*.proto
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+migrate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	migrate -path migrations/ -database postgres://infraction:infraction@localhost:5432/pix_infraction?sslmode=disable up
+
+copy-env:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	cp .env.sample .env
+
+mock-generate-wsl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	go mod vendor
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-accounts/api/infra/grpc/v1 --case underscore --name AccountServiceClient --output ./mocks/client
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-company-api/api/v1/genpb --case underscore --name CompanyServiceClient --output ./mocks/client
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-apis/gen/go/balance/v1 --case underscore --name BalanceServiceClient --output ./mocks/client
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/banking-apis/gen/go/balance-query/v1 --case underscore --name BalanceQueryServiceClient --output ./mocks/client
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/pix-transactional-api/api/v1/genpb --case underscore --name TransactionalServiceClient --output ./mocks/client
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/btg-pix-sdk/session/infraction --case underscore --name Client --output ./mocks/client/btg/infraction
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/vendor/github.com/hashlab/btg-pix-sdk/session/refund --case underscore --name Client --output ./mocks/client/btg/refund
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/internal/infra/repositories --case underscore --name InfractionRepository --output ./mocks/repositories/infraction
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/internal/infra/repositories --case underscore --name RefundRepository --output ./mocks/repositories/refund
+	docker run --rm -v $PWD:/app -w /app -t vektra/mockery --dir /app/internal/clients --case underscore --name ServiceClients --output ./mocks
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+coverage:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	go tool cover -func=count.out
+
+docs-generate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	docker run --rm \
+		-v `pwd`/docs:/out \
+		-v `pwd`/api/v1:/protos \
+		pseudomuto/protoc-gen-doc --doc_opt=markdown,README.md
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	go mod vendor
+	docker run --rm -v $(PWD):/app -w /app golangci/golangci-lint:v1.39.0 golangci-lint run -v
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 357 B / avg = 9 B
+# current buf: size = 8162 B / used = 357 B / count = 38 / avg = 9 B
+
+# strcache performance: lookups = 56 / hit rate = 32%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=1/56=2%
+# Finished Make data base on Thu Jul 28 11:09:18 2022
+
+ 

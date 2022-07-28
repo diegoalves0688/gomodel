@@ -1,0 +1,19 @@
+version: '3'
+
+tasks:
+  integration:
+    cmds:
+      - go test -tags=integration -v ./...
+
+  unit:
+    cmds:
+      - go test -tags=unit -v ./...
+
+  gen-mocks:
+    cmds:
+      - mockery --case snake --dir internal --all 
+
+  unit-coverage:
+    cmds:
+      - go test -tags=unit -coverprofile cover.out ./...
+      - go tool cover -html=cover.out

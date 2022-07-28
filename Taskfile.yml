@@ -1,0 +1,14 @@
+version: '3'
+
+includes:
+  gosample:
+    taskfile: ./cmd/gosample/Taskfile.yml
+
+  test:
+    taskfile: ./TaskTests.yml
+
+  lint:
+    taskfile: ./TaskLint.yml
+
+  install:
+    taskfile: ./TaskInstall.yml

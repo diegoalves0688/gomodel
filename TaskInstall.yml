@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  dev-deps:
+    cmds:
+      - go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@v4.1.0
+      - go install github.com/swaggo/swag/cmd/swag@v1.8.0
+      - go install github.com/vektra/mockery/v2@v2.10.0
+      - go mod tidy

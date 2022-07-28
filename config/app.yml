@@ -1,0 +1,14 @@
+db:
+  dsn: "postgres://postgres:postgres@localhost:5432/go-sample?sslmode=disable"
+
+zap:
+  preset: development
+
+tracer:
+  host: localhost
+  port: 8126
+  service: gosample
+  env: dev
+  version: 0.0.1
+  enableMockAgent: true
+  enableDebugMode: true
