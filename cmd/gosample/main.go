@@ -17,7 +17,6 @@ import (
 	echoSwagger "github.com/swaggo/echo-swagger"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
-
 )
 
 func newEcho(lc fx.Lifecycle, logger *zap.Logger) *echo.Echo {
@@ -39,6 +38,7 @@ func newEcho(lc fx.Lifecycle, logger *zap.Logger) *echo.Echo {
 
 	e.GET("/swagger/*", echoSwagger.WrapHandler)
 	return e
+	ç
 }
 
 func runTracer(lc fx.Lifecycle, cfg config.Config) {
