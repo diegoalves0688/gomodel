@@ -31,7 +31,7 @@ jobs:
 
           # Optional: golangci-lint command line arguments.
           #args: --enable-all
-          args: --enable typecheck
+          args: --disable-all --presets style format unused import error complexity
 
           # Optional: show only new issues if it's a pull request. The default value is `false`.
           # only-new-issues: true
