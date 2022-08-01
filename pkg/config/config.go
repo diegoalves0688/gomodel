@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/swaggo/echo-swagger"
 	"github.com/spf13/viper"
 )
 
