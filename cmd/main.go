@@ -10,7 +10,7 @@ import (
 	"github.com/diegoalves0688/gomodel/pkg/config"
 	"github.com/diegoalves0688/gomodel/pkg/db"
 	"github.com/diegoalves0688/gomodel/pkg/logger"
-	"github.com/diegoalves0688/gomodel/pkg/migrations"
+	//"github.com/diegoalves0688/gomodel/pkg/migrations"
 	tracer "github.com/diegoalves0688/gomodel/pkg/tracer/datadog"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -18,6 +18,7 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
+	_ "github.com/diegoalves0688/gomodel/cmd/docs"
 )
 
 func newEcho(lc fx.Lifecycle, logger *zap.Logger) *echo.Echo {
@@ -94,7 +95,7 @@ func main() {
 			newEcho,
 		),
 		api.Module,
-		fx.Invoke(migrations.RunPostgresMigrations("file://migrations")),
+		//fx.Invoke(migrations.RunPostgresMigrations("file://migrations")),
 		fx.Invoke(runTracer),
 		fx.Invoke(runServer),
 	).Run()
